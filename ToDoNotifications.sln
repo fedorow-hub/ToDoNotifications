@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CD78A4A4-51F6-4BA0-AE6E-A44646766CD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4AA25C08-2EC5-43DF-8B41-6BEE0BAB5FF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{23145001-B87B-421A-BB18-F816D339627E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8C77AB80-B17D-42BE-B836-61BF3D901D1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Domain", "NotesDomain\Notes.Domain.csproj", "{E8D8441D-F3BC-4F67-833A-422FB7744CA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Application", "Notes.Application\Notes.Application.csproj", "{1862594E-D16F-49C1-AF83-BB17C7DB1044}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.Presistence", "Notes.Presistence\Notes.Presistence.csproj", "{2EB9B522-B2D5-4533-B8E2-CBCB5AAA3B98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notes.WebAPI", "Notes.WebAPI\Notes.WebAPI.csproj", "{36815BBE-0A52-4D56-8B7A-E1DC2BA3F2FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Tests", "Notes.Tests\Notes.Tests.csproj", "{140B2BCA-60BA-485D-B390-DF388437174E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8D8441D-F3BC-4F67-833A-422FB7744CA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D8441D-F3BC-4F67-833A-422FB7744CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D8441D-F3BC-4F67-833A-422FB7744CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D8441D-F3BC-4F67-833A-422FB7744CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1862594E-D16F-49C1-AF83-BB17C7DB1044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1862594E-D16F-49C1-AF83-BB17C7DB1044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1862594E-D16F-49C1-AF83-BB17C7DB1044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1862594E-D16F-49C1-AF83-BB17C7DB1044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB9B522-B2D5-4533-B8E2-CBCB5AAA3B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB9B522-B2D5-4533-B8E2-CBCB5AAA3B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB9B522-B2D5-4533-B8E2-CBCB5AAA3B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB9B522-B2D5-4533-B8E2-CBCB5AAA3B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36815BBE-0A52-4D56-8B7A-E1DC2BA3F2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36815BBE-0A52-4D56-8B7A-E1DC2BA3F2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36815BBE-0A52-4D56-8B7A-E1DC2BA3F2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36815BBE-0A52-4D56-8B7A-E1DC2BA3F2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140B2BCA-60BA-485D-B390-DF388437174E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140B2BCA-60BA-485D-B390-DF388437174E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140B2BCA-60BA-485D-B390-DF388437174E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140B2BCA-60BA-485D-B390-DF388437174E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8D8441D-F3BC-4F67-833A-422FB7744CA7} = {CD78A4A4-51F6-4BA0-AE6E-A44646766CD7}
+		{1862594E-D16F-49C1-AF83-BB17C7DB1044} = {CD78A4A4-51F6-4BA0-AE6E-A44646766CD7}
+		{2EB9B522-B2D5-4533-B8E2-CBCB5AAA3B98} = {4AA25C08-2EC5-43DF-8B41-6BEE0BAB5FF3}
+		{36815BBE-0A52-4D56-8B7A-E1DC2BA3F2FB} = {23145001-B87B-421A-BB18-F816D339627E}
+		{140B2BCA-60BA-485D-B390-DF388437174E} = {8C77AB80-B17D-42BE-B836-61BF3D901D1C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85083F59-1095-4A7C-812A-37C6D23E9D85}
+	EndGlobalSection
+EndGlobal
