@@ -9,13 +9,26 @@ using System.Reflection;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using Notes.WebAPI;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Notes.WebAPI.Services;
+using Serilog;
+using Serilog.Events;
+
+//создание конфигурации логгера
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
+    .WriteTo.File("NotesWebAppLog-.txt", rollingInterval:
+        RollingInterval.Day)
+    .CreateLogger();
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
+//добавл€етс€ провайдер дл€ билдера
+builder.Host.UseSerilog();
+
 var configuration = builder.Configuration;
 
-//конфигурируем AutoMapper здесь, а не в проекте Notes.Application, потому, что нам нужно получить информацию
-//о текущей выполн€ющейс€ сборке
+//конфигурируем AutoMapper здесь, а не в проекте Notes.Application, потому, что нам
+//нужно получить информацию о текущей выполн€ющейс€ сборке
 builder.Services.AddAutoMapper(config =>
 {
     config.AddProfile(new AssemblyMappingProfile(Assembly.GetExecutingAssembly()));
@@ -59,9 +72,13 @@ builder.Services.AddSwaggerGen();
 //добавл€ет версионирование
 builder.Services.AddApiVersioning();
 
-var app = builder.Build();
+//дл€ логировани€:
+//регистрируем сервис текущего пользовател€ дл€ использовани€ его через DI
+builder.Services.AddSingleton<ICurrentUserService, CurrentUserService>();
+//добавл€ем реализацию по умолчанию дл€ HttpContextAccessor
+builder.Services.AddHttpContextAccessor();
 
-var provider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
+var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
@@ -75,10 +92,13 @@ using (var scope = app.Services.CreateScope())
     }
     catch (Exception exeption)
     {
+        Log.Fatal(exeption, "An error occurred while app initialization");
     }
 }
 
 app.UseSwagger();
+
+var provider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 //интерфейс Swagger в корневом каталоге приложени€
 app.UseSwaggerUI(config =>
 {

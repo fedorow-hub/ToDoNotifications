@@ -30,22 +30,22 @@ public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     /// <param name="options"></param>
     public void Configure(SwaggerGenOptions options)
     {
-        foreach(var description in _provider.ApiVersionDescriptions)
+        foreach (var description in _provider.ApiVersionDescriptions)
         {
             var apiVersion = description.ApiVersion.ToString();
 
             //тут мы можем указать версию API, добавить заголовок, описание и др. информацию, как например
             //условия использования, лицензию и контакты
             options.SwaggerDoc(description.GroupName,
-                new OpenApiInfo                {
-                    
-                    Version= apiVersion,
+                new OpenApiInfo
+                {
+                    Version = apiVersion,
                     Title = $"Notes API {apiVersion}",
-                    Description = 
+                    Description =
                     "A simple example ASP NET Core Web API. Professional way",
                     Contact = new OpenApiContact
                     {
-                        Name= "Platinum Chat",
+                        Name = "Platinum Chat",
                         Email = string.Empty
                     },
                     License = new OpenApiLicense

@@ -4,7 +4,6 @@ using Notes.Application.Common.Exceptions;
 using Notes.Application.Interfaces;
 using Notes.Domain;
 
-
 namespace Notes.Application.Notes.Commands.UpdateNote;
 
 /// <summary>

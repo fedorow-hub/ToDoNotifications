@@ -10,8 +10,7 @@ namespace Notes.Tests.Notes.Queries;
 public class GetNoteDetailsQueryHandlerTests
 {
     private readonly NotesDbContext Context;
-    private readonly IMapper Mapper;
-    
+    private readonly IMapper Mapper;    
 
     public GetNoteDetailsQueryHandlerTests(QueryTestFixture fixture)
     {

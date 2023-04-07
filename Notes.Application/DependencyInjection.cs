@@ -18,6 +18,9 @@ public static class DependencyInjection
         //а также регистрируем наш PipelineBehavior
         services.AddTransient(typeof(IPipelineBehavior<,>),
             typeof(ValidationBehavior<,>));
+        //добавляем логирование в Pipeline медиатора
+        services.AddTransient(typeof(IPipelineBehavior<,>),
+            typeof(LoginBehavior<,>));
         return services;
     }
 }

@@ -16,7 +16,7 @@ namespace Notes.WebAPI.Controllers;
 [ApiVersion("1.0")] //для указания номера версии в параметре запроса query string
 [ApiVersion("2.0")] //для возможности вызова контроллера при обращении к любой версии добавляют все версии
 //[ApiVersionNeutral] //второй способ для возможности обращения к любой версии контроллера 
-[Produces("application/json")]//данный аттрибут позволяет объявить, что действсия контроллера поддерживают тип содержимого ответа application/json
+[Produces("application/json")]//данный атрибут позволяет объявить, что действия контроллера поддерживают тип содержимого ответа application/json
 [Route("api/{version:apiVersion}/[controller]")] //для указания номера версии в сегменте адреса добавляется {version:apiVersion}
 public class NoteController : BaseController
 {

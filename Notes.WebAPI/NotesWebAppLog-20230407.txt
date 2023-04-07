@@ -1,0 +1,170 @@
+2023-04-07 10:11:31.742 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 10:11:31.962 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 10:11:32.141 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 10:11:32.141 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 10:11:32.145 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 10:11:32.146 +07:00 [INF] Hosting environment: Development
+2023-04-07 10:11:32.147 +07:00 [INF] Content root path: C:\Users\Света\source\repos\ToDoNotifications\Notes.WebAPI\
+2023-04-07 10:11:32.874 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 10:11:33.207 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 10:11:33.208 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_vs/browserLink - -
+2023-04-07 10:11:33.215 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 6.2769ms
+2023-04-07 10:11:33.218 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 346.1205ms
+2023-04-07 10:11:33.250 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 42.3334ms
+2023-04-07 10:11:33.380 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 10:11:33.390 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/favicon-32x32.png - -
+2023-04-07 10:11:33.402 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-04-07 10:11:33.402 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/favicon-32x32.png - - - 200 628 image/png 11.8758ms
+2023-04-07 10:11:33.496 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.5026ms
+2023-04-07 10:11:45.323 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/api/notes - -
+2023-04-07 10:11:45.412 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/api/notes - - - 404 0 - 89.1315ms
+2023-04-07 10:11:52.931 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/api/note - -
+2023-04-07 10:11:52.932 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/api/note - - - 404 0 - 1.1638ms
+2023-04-07 10:12:09.452 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 10:12:09.674 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 10:12:09.841 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 10:12:09.841 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 10:12:09.844 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 10:12:09.845 +07:00 [INF] Hosting environment: Development
+2023-04-07 10:12:09.845 +07:00 [INF] Content root path: C:\Users\Света\source\repos\ToDoNotifications\Notes.WebAPI\
+2023-04-07 10:12:10.450 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 10:12:10.780 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 10:12:10.780 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_vs/browserLink - -
+2023-04-07 10:12:10.801 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 16.7485ms
+2023-04-07 10:12:10.808 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 357.2006ms
+2023-04-07 10:12:10.815 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.2976ms
+2023-04-07 10:12:10.963 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 10:12:11.074 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.8272ms
+2023-04-07 10:12:19.347 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/api/note - -
+2023-04-07 10:12:19.426 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/api/note - - - 404 0 - 78.8322ms
+2023-04-07 10:12:54.190 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 10:12:54.414 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 10:12:54.581 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 10:12:54.581 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 10:12:54.584 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 10:12:54.585 +07:00 [INF] Hosting environment: Development
+2023-04-07 10:12:54.585 +07:00 [INF] Content root path: C:\Users\Света\source\repos\ToDoNotifications\Notes.WebAPI\
+2023-04-07 10:12:55.261 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 10:12:55.591 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 10:12:55.591 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_vs/browserLink - -
+2023-04-07 10:12:55.601 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.2472ms
+2023-04-07 10:12:55.603 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 345.1137ms
+2023-04-07 10:12:55.614 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 22.2371ms
+2023-04-07 10:12:55.690 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 10:12:55.802 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.8173ms
+2023-04-07 10:13:11.118 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/api/v1/note - -
+2023-04-07 10:13:11.203 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/api/v1/note - - - 404 0 - 85.3668ms
+2023-04-07 10:13:19.571 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/api/1/note - -
+2023-04-07 10:13:19.578 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-04-07 10:13:19.585 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-04-07 10:13:19.585 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/api/1/note - - - 401 0 - 13.4966ms
+2023-04-07 12:25:39.912 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 12:25:40.145 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 12:25:40.319 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 12:25:40.319 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 12:25:40.322 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 12:25:40.322 +07:00 [INF] Hosting environment: Development
+2023-04-07 12:25:40.322 +07:00 [INF] Content root path: C:\Users\Света\source\repos\ToDoNotifications\Notes.WebAPI\
+2023-04-07 12:25:40.737 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 12:25:41.100 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 12:25:41.100 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_vs/browserLink - -
+2023-04-07 12:25:41.109 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.2313ms
+2023-04-07 12:25:41.110 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 375.7358ms
+2023-04-07 12:25:41.120 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.1376ms
+2023-04-07 12:25:41.193 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 12:25:41.323 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 130.0700ms
+2023-04-07 12:27:49.683 +07:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 12:27:49.895 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 12:27:50.064 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 12:27:50.064 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 12:27:50.067 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 12:27:50.068 +07:00 [INF] Hosting environment: Development
+2023-04-07 12:27:50.068 +07:00 [INF] Content root path: C:\Users\Света\source\repos\ToDoNotifications\Notes.WebAPI\
+2023-04-07 12:27:50.672 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 12:27:51.019 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_vs/browserLink - -
+2023-04-07 12:27:51.019 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 12:27:51.030 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 9.0359ms
+2023-04-07 12:27:51.032 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 361.8445ms
+2023-04-07 12:27:51.041 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9197ms
+2023-04-07 12:27:51.116 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 12:27:51.239 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.3752ms
+2023-04-07 13:02:49.599 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 13:02:49.817 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 13:02:49.986 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 13:02:49.986 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 13:02:49.989 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 13:02:49.990 +07:00 [INF] Hosting environment: Development
+2023-04-07 13:02:49.990 +07:00 [INF] Content root path: C:\Users\Света\source\repos\ToDoNotifications\Notes.WebAPI\
+2023-04-07 13:02:50.592 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 13:02:50.920 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_vs/browserLink - -
+2023-04-07 13:02:50.920 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 13:02:50.930 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.6610ms
+2023-04-07 13:02:50.932 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 342.5132ms
+2023-04-07 13:02:50.942 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.6176ms
+2023-04-07 13:02:51.018 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 13:02:51.126 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.6251ms
+2023-04-07 13:02:53.062 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v2/swagger.json - -
+2023-04-07 13:02:53.065 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v2/swagger.json - - - 200 - application/json;charset=utf-8 3.2333ms
+2023-04-07 13:02:57.245 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 13:02:57.248 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.0703ms
+2023-04-07 13:38:43.167 +07:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 13:38:43.430 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 13:38:43.599 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 13:38:43.599 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 13:38:43.602 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 13:38:43.602 +07:00 [INF] Hosting environment: Development
+2023-04-07 13:38:43.602 +07:00 [INF] Content root path: C:\Users\Света\source\repos\ToDoNotifications\Notes.WebAPI\
+2023-04-07 13:38:44.121 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 13:38:44.463 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_vs/browserLink - -
+2023-04-07 13:38:44.463 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 13:38:44.473 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 8.9734ms
+2023-04-07 13:38:44.474 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 356.6133ms
+2023-04-07 13:38:44.485 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.6846ms
+2023-04-07 13:38:44.562 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 13:38:44.677 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 115.5095ms
+2023-04-07 13:38:57.243 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger.json - -
+2023-04-07 13:38:57.325 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger.json - - - 404 0 - 81.7051ms
+2023-04-07 13:39:27.496 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 13:39:27.499 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.8182ms
+2023-04-07 13:39:27.539 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/favicon.ico - -
+2023-04-07 13:39:27.543 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/favicon.ico - - - 404 0 - 2.9363ms
+2023-04-07 13:40:05.022 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 13:40:05.032 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 9.3510ms
+2023-04-07 13:55:37.809 +07:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 13:55:38.047 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 13:55:38.243 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 13:55:38.243 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 13:55:38.246 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 13:55:38.247 +07:00 [INF] Hosting environment: Development
+2023-04-07 13:55:38.247 +07:00 [INF] Content root path: C:\Users\Света\source\repos\Notes\ToDoNotifications\Notes.WebAPI\
+2023-04-07 13:55:39.324 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 13:55:39.739 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_vs/browserLink - -
+2023-04-07 13:55:39.739 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 13:55:39.743 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 421.6683ms
+2023-04-07 13:55:39.758 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 19.3341ms
+2023-04-07 13:55:39.848 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 109.1143ms
+2023-04-07 13:55:39.934 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 13:55:40.107 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 172.9848ms
+2023-04-07 14:23:12.058 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-04-07 14:23:12.315 +07:00 [INF] User profile is available. Using 'C:\Users\Света\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-04-07 14:23:12.506 +07:00 [INF] Now listening on: https://localhost:7158
+2023-04-07 14:23:12.506 +07:00 [INF] Now listening on: http://localhost:5158
+2023-04-07 14:23:12.509 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-07 14:23:12.509 +07:00 [INF] Hosting environment: Development
+2023-04-07 14:23:12.509 +07:00 [INF] Content root path: C:\Users\Света\source\repos\Notes\ToDoNotifications\Notes.WebAPI\
+2023-04-07 14:23:13.386 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/index.html - -
+2023-04-07 14:23:13.790 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/index.html - - - 200 - text/html;charset=utf-8 409.0768ms
+2023-04-07 14:23:13.876 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - -
+2023-04-07 14:23:13.910 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/_framework/aspnetcore-browser-refresh.js - - - 200 11994 application/javascript;+charset=utf-8 33.6664ms
+2023-04-07 14:23:14.003 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - -
+2023-04-07 14:23:14.210 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7158/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 207.8286ms
